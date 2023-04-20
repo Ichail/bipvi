@@ -2,6 +2,6 @@
 The file is read in a floating window of 100 bytes with a shift of 1 byte.
 Fourier transform is used to visualize the image.
 
-Input > Filename of binary file
+Input: Filename of binary file
 
-Output > *.png 
+Output: *.png 
