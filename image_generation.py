@@ -12,8 +12,8 @@ def get_fourier(byte_string, numb_name) -> None:
     plt.close()
 
 
-def get_bytes_matrix(filename):
-    counter = 1
+def get_bytes_matrix(filename) -> None:
+    counter = 1 
     with open(filename, 'rb') as f:
         while True:
             data = f.read(100)
@@ -21,8 +21,9 @@ def get_bytes_matrix(filename):
                 break
             f.seek(-99, 1)
             counter += 1
-            print(data, end="\n\n")
+            # print(data, end="\n\n")
             get_fourier(data, str(counter))
 
 
+filename = input("Filename: ")
 get_bytes_matrix(filename=)
