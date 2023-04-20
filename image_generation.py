@@ -26,4 +26,4 @@ def get_bytes_matrix(filename) -> None:
 
 
 filename = input("Filename: ")
-get_bytes_matrix(filename=)
+get_bytes_matrix(filename)
